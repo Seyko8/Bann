@@ -1,0 +1,15 @@
+{
+  "name": "telegram-bot",
+  "version": "1.0.0",
+  "description": "Ein Telegram-Bot für IP-Tracking",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "dotenv": "^16.0.3",
+    "multer": "^1.4.5",
+    "node-fetch": "^3.3.0"
+  }
+}
