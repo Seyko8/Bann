@@ -2,6 +2,7 @@
   "name": "telegram-bot",
   "version": "1.0.0",
   "description": "Ein Telegram-Bot für IP-Tracking",
+  "type": "module",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
@@ -10,6 +11,7 @@
     "express": "^4.18.2",
     "dotenv": "^16.0.3",
     "multer": "^1.4.5-lts.1",
-    "node-fetch": "^3.3.0"
+    "node-fetch": "^3.3.0",
+    "form-data": "^4.0.0"
   }
 }
