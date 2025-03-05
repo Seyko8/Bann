@@ -1,0 +1,9 @@
+#The proxies will rotate with each account
+#Supported proxy-types: socks5, socks4, http
+#You need to write your proxies in this format into proxy.txt:
+#FORMAT:
+#PROXY_TYPE,IP-ADDRESS,PORT,USERNAME,PASSWORD
+#EXAMPLE:
+socks5,185.33.85.238,51052,john,pass1234
+socks5,63.223.67.155,51052,john,pass1234
+socks5,172.120.3.181,51052,john,pass1234

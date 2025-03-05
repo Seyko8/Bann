@@ -1,0 +1,5 @@
+#Enter the ID of the message to forward
+#EXAMPLE
+6196
+6092
+59

@@ -1,0 +1,7 @@
+#1 line = 1 channel or group
+#type the usernames without the @ of the targets if the target is public
+#type the link of the target if the target is private
+#you can also type the username of users here without the @
+#EXAMPLE:
+FullTGPremium
+TGToolsFree

@@ -1,0 +1,32 @@
+TUTORIAL:
+CAUTION!!! Every Key can be registered to 1 machine max! If you need a key with more machines, contact us to buy at a cheaper rate: TG: @FullTGSupport
+
+UPDATES WILL BE PUBLISHED HERE: https://t.me/+Ow0p1Ozt_XpiNTZk
+
+INSTALLATION:
+1.) Install Python3.11: https://www.python.org/downloads/
+2.) Open cmd and install the requirements with this command: pip install -r requirements.txt
+3.) Create your API_ID and API_HASH here: https://my.telegram.org/auth
+    Paste your API_ID and API_HASH to credentials.txt (open credentials with notepad or text editor)
+    Take a look at credentials_example.txt 
+    OPTIONAL: (Make sure to use many api's. For example: if you use 100 accounts, use atleast 10api's)
+
+HOW TO RUN THE APP:
+1.) Open cmd and type python Full-TGp311.pyc (for Python version 3.11 - compatible with mobile phones)
+OR
+Open cmd and type python Full-TGp312.pyc (for Python version 3.12)
+2.) Login the accounts with the first option. (Multiple accounts are possible)
+3.) Scrape a group of your choice (Will be saved into teammember.csv)
+4.) Add the scraped members to your own group.
+    After finishing, scrape a group again.
+
+HOW TO RUN THE TASKS:
+1.) For editing accounts information, go to data/edit_account and edit the files to your wishes. Dont change the names of the files.
+2.) For choosing which emojis you want to use for the auto-reaction task, open CONFIG.py with notepad and delete the emojis which you dont want to use.
+3.) Everything for sending, forwarding, copying messages can be found in data/messages
+4.) Report reason files are in data/report
+
+IMPORTANT: DONT TOUCH THE KEY AND NUMBERS FILE! IF YOU WANT TO DELETE ACCOUNTS FROM THE APP THEN USE THE DELETE FUNCTION FROM THE APP!
+DONT SHARE YOUR KEY WITH ANYONE!
+
+For any support, bug-fixes or suggestions for more features contact tg: @FullTGToolSupport
